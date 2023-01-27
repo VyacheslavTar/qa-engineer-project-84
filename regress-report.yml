@@ -67,7 +67,7 @@ test-cases:
 bugreports:
 - summary: |
     Отображение товара на странице
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -79,7 +79,7 @@ bugreports:
   
 - summary: |
     Фильтр товаров
-  enviroment: |
+  envirnoment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -92,7 +92,7 @@ bugreports:
     
 - summary: |
     Форма регистрация пользователя
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -105,7 +105,7 @@ bugreports:
     
 - summary: |
     Форма регистрация пользователя (вводимые данные)
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -118,7 +118,7 @@ bugreports:
     
 - summary: |
     Регистрация нового пользователя
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -132,7 +132,7 @@ bugreports:
     
 - summary: |
     Функционал пользователя
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -154,7 +154,7 @@ bugreports:
     
 - summary: |
     Статус заказа
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -170,7 +170,7 @@ bugreports:
     
 - summary: |
     История заказов
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -184,7 +184,7 @@ bugreports:
     
 - summary: |
     Синхронизация личного кабинета
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
     Mozila 109, Chrome 109, Safari 5.1, Opera 94
