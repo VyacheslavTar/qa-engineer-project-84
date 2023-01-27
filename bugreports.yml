@@ -4,7 +4,7 @@
   enviroment: |
     Android (Samsung Galaxy S21, Google Pixel 5, Xiaomi Redmi Note 8, Huawei P30), IOS (IPhone 14,IPhone XS)
   steps-to-reproduce: |
-    1. открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
+    1. открыть https://hexlet-products-store.vercel.app
     2. открыть сайт на https://live.browserstack.com/ на устройствах
   expected-result: |
     Сайт адаптивный под размеры устройства
