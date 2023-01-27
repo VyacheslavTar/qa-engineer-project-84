@@ -44,10 +44,6 @@
   status: fail
   
 - summary: |
-   Форма регистрация пользователя (вводимые данные)
-  status: fail
-  
-- summary: |
    Регистрация нового пользователя
   status: fail
   
