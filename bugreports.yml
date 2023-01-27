@@ -1,87 +1,87 @@
 ---
 - summary: |
     Адаптивность сайта
-  enviroment: |
+   enviroment: |
     Android (Samsung Galaxy S21, Google Pixel 5, Xiaomi Redmi Note 8, Huawei P30), IOS (IPhone 14,IPhone XS)
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     2. открыть сайт на https://live.browserstack.com/ на устройствах
-  expected-result: |
+   expected-result: |
     Сайт адаптивный под размеры устройства
-  actual-result: |
+   actual-result: |
     Текст в форме фильтра смещается за его границы, товар переносится на за формой фильтра вниз, при этом справо от фильтра пустует место - пересмотреть размещение объектоа на сайте
     
 - summary: |
     Отображение товара на странице
-  enviroment: |
+   enviroment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
-  expected-result: |
+   expected-result: |
     В каждом товаре отображается: название, рейтинг, цена со скидкой и без
-  actual-result: |
+   actual-result: |
     В товаре не отображает рейтинг
     
 - summary: |
     Фильтр товаров
-  enviroment: |
+   enviroment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     2. Проверяем пограничный форму пограничного фильтра
-  expected-result: |
+   expected-result: |
     На сайте есть пограничный фильтр (название, цена, скидка или без, размер)
-  actual-result: |
+   actual-result: |
     На сайте нет в форме фильтра категория размер, скидка или без
     
 - summary: |
     Форма регистрация пользователя
-  enviroment: |
+   enviroment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     2. Проверить наличие формы регистрации нового пользователя
-  expected-result: |
+   expected-result: |
     На сайте есть форма регистрации нового пользователя
-  actual-result: |
+   actual-result: |
     Форма регистрации нового пользователя отсутствует
     
 - summary: |
     Форма регистрация пользователя (вводимые данные)
-  enviroment: |
+   enviroment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     2. Перейти в форму регистрации нового пользователя
-  expected-result: |
+   expected-result: |
     На сайте есть в форме регистрации нового пользователя есть поля: Фамилия, Имя, Логин, Пароль, Подтверждение пароля, Номер телефона, Город, Адрес проживания
-  actual-result: |
+   actual-result: |
     Форма регистрации нового пользователя отсутствует
     
 - summary: |
     Регистрация нового пользователя
-  enviroment: |
+   enviroment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     2. Перейти в форму регистрации нового пользователя
     3. Зарегистрировать нового пользователя с данными: Фамилия = Иванов, Имя = Иван, Логин = user1, Пароль = 111111, Подтверждение пароля = 111111, Номер телефона = 99999999999, Город = Москва, Адрес проживания = Перекупной пер. д.1
-  expected-result: |
+   expected-result: |
     Регистрация нового пользователя прошла успешно
-  actual-result: |
+   actual-result: |
     Форма регистрации нового пользователя отсутствует
     
 - summary: |
     Функционал пользователя
-  enviroment: |
+   enviroment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     2. Перейти в форму входа пользователя
     3. Ввести данные пользователя: Логин = user1, Пароль = 111111
@@ -92,55 +92,55 @@
     8. Просмотреть содержимое своей корзины
     9. Оформить заказ
     10. Оплатить заказ
-  expected-result: |
+   expected-result: |
     Пользователь иметь функции чтение, редактирование, оформление и оплата заказа
-  actual-result: |
+   actual-result: |
     Форма регистрации нового пользователя отсутствует, форма входа в личный кабинет отсутствует
     
 - summary: |
     Статус заказа
-  enviroment: |
+   enviroment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     2. Войти в личный кабинет пользователя: Логин = user1, Пароль = 111111
     3. Перейти в форму истории заказов
     4. Проверить отображение статусов заказов
-  expected-result: |
+   expected-result: |
     В истории заказов есть статусы: Ожидает оплату, Оплачен, Получен
-  actual-result: |
+   actual-result: |
     Форма регистрации нового пользователя отсутствует, форма входа в личный кабинет отсутствует, статусы заказов отсутствует
     
 - summary: |
     История заказов
-  enviroment: |
+   enviroment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     2. Войти в личный кабинет пользователя: Логин = user1, Пароль = 111111
     3. Перейти в форму истории заказов
-  expected-result: |
+   expected-result: |
     История предыдущих заказов хранится в личном кабинете
-  actual-result: 
+   actual-result: 
     Форма регистрации нового пользователя отсутствует, форма входа в личный кабинет отсутствует, статусы заказов отсутствует, история заказов отсутствует
     
 - summary: |
     Синхронизация личного кабинета
-  enviroment: |
+   enviroment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
     Mozila 109, Chrome 109, Safari 5.1, Opera 94
     Логин = user1, Пароль = 111111
-  steps-to-reproduce: |
+   steps-to-reproduce: |
     1. Открыть браузеры Mozila 109, Chrome 109 последних версий, остальные браузеры Safari 5.1, Opera 94 проверить на https://live.browserstack.com/
     2. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     3. Войти в личный кабинет пользователя: Логин = user1, Пароль = 111111
     4. Открыть историю заказов
-  expected-result: |
+   expected-result: |
     История предыдущих заказов хранится в личном кабинете пользователя на всех версиях браузера
-  actual-result: |
+   actual-result: |
     Форма регистрации нового пользователя отсутствует, форма входа в личный кабинет отсутствует, статусы заказов отсутствует, история заказов отсутствует
 
  
