@@ -1,7 +1,7 @@
 ---
 - summary: |
     Адаптивность сайта
-  enviroments: |
+  environment: |
     Android (Samsung Galaxy S21, Google Pixel 5, Xiaomi Redmi Note 8, Huawei P30), IOS (IPhone 14,IPhone XS)
   steps-to-reproduce: |
     1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
@@ -13,7 +13,7 @@
     
 - summary: |
     Отображение товара на странице
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -25,7 +25,7 @@
     
 - summary: |
     Фильтр товаров
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -38,7 +38,7 @@
     
 - summary: |
     Форма регистрация пользователя
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -51,7 +51,7 @@
     
 - summary: |
     Форма регистрация пользователя (вводимые данные)
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -64,7 +64,7 @@
     
 - summary: |
     Регистрация нового пользователя
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -78,7 +78,7 @@
     
 - summary: |
     Функционал пользователя
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -99,7 +99,7 @@
     
 - summary: |
     Статус заказа
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -114,7 +114,7 @@
     
 - summary: |
     История заказов
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
@@ -128,7 +128,7 @@
     
 - summary: |
     Синхронизация личного кабинета
-  enviroment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
     Mozila 109, Chrome 109, Safari 5.1, Opera 94
