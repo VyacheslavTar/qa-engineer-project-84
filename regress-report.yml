@@ -79,7 +79,7 @@ bugreports:
   
 - summary: |
     Фильтр товаров
-  envirnoment: |
+  environment: |
     Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
     OC Windows 11, версия 22H2, сборка ОС 22621.1105
   steps-to-reproduce: |
