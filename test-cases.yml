@@ -5,7 +5,8 @@
     Сайт должен отображать товары
   prerequisites: |
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     - Прокрутить страницу вниз
@@ -17,10 +18,11 @@
   requirement: |
     Сайт должен быть производительным по скорости работы и объема
     входящего трафика
-  prerequisites: >
+  prerequisites: |
     Открыть DevTools [сайт
     интернет-магазина](https://hexlet-products-store.vercel.app)
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     - Открыть DevTools
@@ -33,28 +35,30 @@
   requirement: >
     Сайт должен быть адаптивным (браузеры с последними версиями и на
     различных мобильных устройствах устройствах)
-  prerequisites: >
+  prerequisites: |
     Открыть DevTools [сайт
     интернет-магазина](https://hexlet-products-store.vercel.app)
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - отркыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
-    - открыть сайт на https://live.browserstack.com/
+    - открыть сайт на (https://live.browserstack.com/)
     - проверить адаптивность на устройствах: Android (Samsung Galaxy S21, Google Pixel
         5, Xiaomi Redmi Note 8, Huawei P30), IOS (IPhone 14,IPhone XS)
-  expected-result: |+
+  expected-result: |
     Сайт адаптивный под размеры устройства
      
 - summary: |
     Кроссбраузерность сайта
-  requirement: >
+  requirement: |
     Сайт должен быть адаптивным (браузеры с последними версиями и на
     различных мобильных устройствах устройствах)
-  prerequisites: >
+  prerequisites: |
     Открыть браузеры Mozila 109, Chrome 109 последних версий,
     остальные браузеры Safari 5.1, Opera 94 проверить на
     https://live.browserstack.com/
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - отркыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     - проверить отображение элементов в браузерах
@@ -67,7 +71,8 @@
     Сайт должен быть SPA-приложением (не перезагружается страница)  
   prerequisites: |
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - открыть различные страницы внутри сайта
   expected-result: |
@@ -80,7 +85,8 @@
     скидкой и без
   prerequisites: |
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)  
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
   expected-result: |
@@ -88,12 +94,13 @@
     
 - summary: |
     Фильтр товаров
-  requirement: >
+  requirement: |
     На сайте должен быть фильтр по товарам с пограничным выводом по
     названию/, рейтингу, цене, со скидкой или без, цвету, размеру и т.д.
   prerequisites: |
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)  
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
   expected-result: |
@@ -105,7 +112,8 @@
     На сайте должен быть поиск по ключевому слову
   prerequisites: |
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)  
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
   expected-result: |
@@ -113,12 +121,13 @@
     
 - summary: |
     Корзина 
-  requirement: >
+  requirement: |
     На сайте должна быть корзина для добавления товаров с последующей
     оплатой или удалением из корзины товаров
   prerequisites: |
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)  
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
   expected-result: |
@@ -131,7 +140,8 @@
     товаров, оформление заказа, редактирование заказа, оплата заказа)
   prerequisites: |
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)  
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
   expected-result: |
@@ -139,30 +149,31 @@
     
 - summary: |
     Форма регистрация пользователя (вводимые данные)
-  requirement: >
+  requirement: |
     Обязательные требования при регистрации пользователя (Фамилия, Имя,
     Логин, Пароль, Подтверждение пароля, Номер телефона, Город, Адрес
     проживания)
   prerequisites: |
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)  
-  test-data: ""
+  test-data: |
+    empty
   steps:
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     - Перейти в форму регистрации нового пользователя
-  expected-result: >
+  expected-result: |
     На сайте есть в форме регистрации нового пользователя есть
     полы: Фамилия, Имя, Логин, Пароль, Подтверждение пароля, Номер телефона,
     Город, Адрес проживания
     
 - summary: |
     Регистрация нового пользователя
-  requirement: >
+  requirement: |
     Обязательные требования при регистрации пользователя (Фамилия, Имя,
     Логин, Пароль, Подтверждение пароля, Номер телефона, Город, Адрес
     проживания)
   prerequisites: |
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)  
-  test-data: >
+  test-data: |
     Фамилия = Иванов, Имя = Иван, Логин = user1, Пароль = 111111,
     Подтверждение пароля = 111111, Номер телефона = 99999999999, Город = Москва,
     Адрес проживания = Перекупной пер. д.1
@@ -175,7 +186,7 @@
     
 - summary: |
     Функционал пользователя
-  requirement: >
+  requirement: |
     На сайте должна быть форма регистрации пользователя (чтение
     товаров, оформление заказа, редактирование заказа, оплата заказа)
   prerequisites: |
@@ -192,7 +203,7 @@
     - Просмотреть содержимое своей корзины
     - Оформить заказ
     - Оплатить заказ
-  expected-result: >
+  expected-result: |
     Пользователь иметь функции чтение, редактирование, оформление и оплата заказа
     
 - summary: |
@@ -213,7 +224,7 @@
     
 - summary: |
     История заказов
-  requirement: >
+  requirement: |
     В личном кабинете пользователя должна храниться история предыдущих
     заказов со всеми статусами и возможностями посмотреть прошлые заказы 
   prerequisites: |
@@ -228,7 +239,7 @@
     
 - summary: |
     Синхронизация личного кабинета
-  requirement: >
+  requirement: |
     Личный кабинет пользователя должен синхронизироваться на всех
     устройствах и всех браузерах 
   prerequisites: |
@@ -240,7 +251,7 @@
       браузеры Safari 5.1, Opera 94 проверить на https://live.browserstack.com/
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     - Открыть историю заказов
-  expected-result: >
+  expected-result: |
     История предыдущих заказов хранится в личном кабинете
     пользователя на всех версиях браузера
 
