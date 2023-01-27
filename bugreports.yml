@@ -1,14 +1,14 @@
 ---
 - summary: |
     Адаптивность сайта
-   enviroment: |
+  enviroment: |
     Android (Samsung Galaxy S21, Google Pixel 5, Xiaomi Redmi Note 8, Huawei P30), IOS (IPhone 14,IPhone XS)
-   steps-to-reproduce: |
+  steps-to-reproduce: |
     1. открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     2. открыть сайт на https://live.browserstack.com/ на устройствах
-   expected-result: |
+  expected-result: |
     Сайт адаптивный под размеры устройства
-   actual-result: |
+  actual-result: |
     Текст в форме фильтра смещается за его границы, товар переносится на за формой фильтра вниз, при этом справо от фильтра пустует место - пересмотреть размещение объектоа на сайте
     
 - summary: |
