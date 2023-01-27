@@ -1,0 +1,69 @@
+
+- summary: |
+   Отображение товаров на сайте
+  status: pass
+  
+- summary: |
+   Производительность сайта
+  status: pass
+  
+- summary: |
+   Адаптивность сайта
+  status: fail 
+   
+- summary: |
+   Кроссбраузерность сайта
+  status: pass
+  
+- summary: |
+   SPA-приложение
+  status: pass
+  
+- summary: |
+   Отображение товара на странице
+  status: fail
+  
+- summary: |
+   Фильтр товаров
+  status: fail
+  
+- summary: |
+   Поисковая строка
+  status: pass
+  
+- summary: |
+   Корзина
+  status: pass
+  
+- summary: |
+   Форма регистрация пользователя
+  status: fail
+  
+- summary: |
+   Форма регистрация пользователя (вводимые данные)
+  status: fail
+  
+- summary: |
+   Форма регистрация пользователя (вводимые данные)
+  status: fail
+  
+- summary: |
+   Регистрация нового пользователя
+  status: fail
+  
+- summary: |
+   Функционал пользователя
+  status: fail
+  
+- summary: |
+   Статус заказа
+  status: fail
+  
+- summary: |
+   История заказов
+  status: fail
+  
+- summary: |
+   Синхронизация личного кабинета
+  status: fail
+
