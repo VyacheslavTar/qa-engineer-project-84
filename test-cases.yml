@@ -43,8 +43,7 @@
   steps:
     - отркыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
     - открыть сайт на (https://live.browserstack.com/)
-    - проверить адаптивность на устройствах: Android (Samsung Galaxy S21, Google Pixel
-        5, Xiaomi Redmi Note 8, Huawei P30), IOS (IPhone 14,IPhone XS)
+    - проверить адаптивность на устройствах: Android (Samsung Galaxy S21, Google Pixel 5, Xiaomi Redmi Note 8, Huawei P30), IOS (IPhone 14,IPhone XS)
   expected-result: |
     Сайт адаптивный под размеры устройства
      
