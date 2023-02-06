@@ -278,7 +278,7 @@
     Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)  
   test-data: |
     Samsung, HP Pavillion, в наличии; Dermive , не в наличии; Laptops, в наличии; Phone, не в наличии
-   steps:
+  steps:
     - Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)  
     - Произвести фильтрацию по запросам
     - Проверяем корректное отображение фильтруемых товаров 
