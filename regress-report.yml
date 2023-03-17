@@ -119,16 +119,3 @@ bugreports:
   actual-result: |
     Диалоговое окно не закрывается
  
-- summary: |
-    Кнопка "Hexlet Store" является гипперссылкой на начальную страницу
-  environment: |
-    Google Chrome Версия 109.0.5414.76 (Официальная сборка), (32 бит)
-    OC Windows 11, версия 22H2, сборка ОС 22621.1105
-  steps-to-reproduce: |
-    1. Открыть [сайт интернет-магазина](https://hexlet-products-store.vercel.app)
-    2. Перейти в корзину
-    3. Нажать на кнопку "Hexlet Store"
-  expected-result: |
-    ПО кнопке "Hexlet Store" происходит переход на главную страницу интернет-магазина
-  actual-result: |
-    Кнопка "Hexlet Store" не активна
