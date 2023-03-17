@@ -77,9 +77,17 @@ test-cases:
   status: pass
   
 - summary: |
-    Проверить действующий функционал интернет-магазина  
-  status: fail 
+    Проверить переход по страницам сайта
+  status: pass
+
+- summary: |
+    Проверить работоспособность фильтров на сайте 
+  status: fail
   
+- summary: |
+    Изменение кол-ва товара в корзине 
+  status: fail
+
 bugreports:
 
 - summary: |
